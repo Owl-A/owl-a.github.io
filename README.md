@@ -1,8 +1,7 @@
-#My Blog
+# Carte Noire
 
-###repository for my personal blog 
+A Repository for my personal Blog
 
-###Theme Based on :
-	
-	1. [Carte Noire](https://github.com/jacobtomlinson/carte-noire)
-	2. [Typed.js](https://github.com/mattboldt/typed.js)
+### This Blog is based on 
+ * [Carte Noire](https://github.com/jacobtomlinson/carte-noire)
+ * [Typed.js](https://github.com/mattboldt/typed.js/)
