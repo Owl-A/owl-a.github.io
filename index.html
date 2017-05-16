@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: home
 make-smaller-titles: true
 ---
 
@@ -16,9 +16,10 @@ make-smaller-titles: true
             <h1 class="header author-header" itemprop="headline">{{ site.title }}</h1>
 
             <div class="author-text">
-                {{ site.title_description }}
+            {{site.title_description}} <br/>
+            <span class="intro-text"></span>
             </div>
-
+ 
             {% include social_links.html %}
           </div>
           <div class="col-md-12 main content-panel">
