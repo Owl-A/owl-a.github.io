@@ -22,10 +22,10 @@ delete-delay: 5000
 lines: # You can add HTML Tags in the Text
   - text: " an Explorer"
   - text: " a Philosopher"
-  - text: " an Inovator"
+  - text: " an Innovator"
   - text: " a Coder"
   - text: " a Casual Gamer"
-  - text: " a Softaware Developer"
+  - text: " a Software Developer"
   
 # Social usernames/URLs
 twitter_username: 
