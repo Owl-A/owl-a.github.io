@@ -6,7 +6,7 @@ baseurl: ""
 url: "Owl-A.github.io"
 title_image: "https://graph.facebook.com/v2.9/100001240071614/picture?type=large"
 google_analytics: 
-disqus_account: chinmayawale 
+disqus_account: owl-a 
 github_repository: 
 addthis_id: 
 post_limit: 5
