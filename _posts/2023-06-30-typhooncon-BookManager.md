@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      BookManager [TyphoonConCTF]
+title:      BookManager [TyphoonConCTF 23]
 date:       2023-06-30 04:30:00
 summary:    WriteUp for challenge BookManager in TyphoonCon CTF
 categories: 

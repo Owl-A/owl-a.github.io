@@ -4,7 +4,7 @@ email: chinubeta0710@gmail.com
 description: "Casual blog of an Explorer"
 baseurl: ""
 url: "Owl-A.github.io"
-title_image: "https://graph.facebook.com/v2.9/100001240071614/picture?type=large"
+title_image: "/images/me.jpg"
 google_analytics: 
 disqus_account: owl-a 
 github_repository: 
@@ -12,7 +12,7 @@ addthis_id:
 post_limit: 5
 
 #description typing
-title_description: "your average <br/> next door college student <br/> who fancies himself as"
+title_description: "your average <br/> next door college graduate <br/> who fancies himself as"
 dynamic-typing: True
 loop: True
 loop-count: False # Set False for infinite loop, or set any number for finite loop.
@@ -20,17 +20,16 @@ type-speed: 10
 start-delay: 200
 delete-delay: 5000
 lines: # You can add HTML Tags in the Text
-  - text: " an Explorer"
+  - text: " a Security Expert"
   - text: " a Philosopher"
   - text: " an Innovator"
-  - text: " a Coder"
   - text: " a Casual Gamer"
   - text: " a Software Developer"
   
 # Social usernames/URLs
-twitter_username: 
+twitter_username: Owl_A_
 github_username: Owl-A
-instagram_username: 
+instagram_username: common.cryptid 
 reddit_username: 
 linkedin_link: 
 google_plus_link: 
