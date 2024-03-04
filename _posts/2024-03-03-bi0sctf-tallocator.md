@@ -220,7 +220,7 @@ otherwise the in-use bit is set and the address is returned! Raw pointer in Java
       v6 = *(_QWORD *)(sbrk_ed + 0x18);
 ```
 
-tree first checks if the chunk id free if it is, that's a double free and we scoot. Otherwise we clear the in-use bit and then using the convoluted check we check if we are _not_ the last allocation before wilderness, in which case we are put in one of the free list depending on whether our size is < 0x100 (`sbrk_ed + 0x10`) or > 0x100 (`sbrk_ed + 0x18`).
+tree first checks if the chunk is free if it is, that's a double free and we scoot. Otherwise we clear the in-use bit and then using the convoluted check we check if we are _not_ the last allocation before wilderness, in which case we are put in one of the free list depending on whether our size is < 0x100 (`sbrk_ed + 0x10`) or > 0x100 (`sbrk_ed + 0x18`).
 
 ```
   //Java_bi0sctf_android_challenge_MainActivity_tree
@@ -313,7 +313,7 @@ Now the list is in desirable state to use the 1 bit write at the end of talloc t
 ```
 bi0sctf.secure_talloc(key, -23, arr);
 ```
-this will trigger talloc to find an allocation with header size zero or more, `0x41410009` will be picked becuase the value of `curr_size` for it will be 0 and it will minimize the difference between `size` and `curr_size`. Thus 1 bit will be written at `0x41410001` as the in-use bit.
+this will trigger talloc to find an allocation with size header zero or more, `0x41410009` will be picked becuase the value of `curr_size` for it will be 0 and it will minimize the difference between `size` and `curr_size`. Thus 1 bit will be written at `0x41410001` as the in-use bit.
 
 ![5.png](/images/2024-03-03-bi0sctf-tallocator/5.png)
 
