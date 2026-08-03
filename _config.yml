@@ -12,7 +12,7 @@ addthis_id:
 post_limit: 5
 
 #description typing
-title_description: "Pursuit of absolute scientific correctness <br/>Often catalyzes the dogmatization of science <br/><br/>Toast to scrutiny of all authority <br/><font color=\"grey\">Interests & Hobbies</font>"
+title_description: "Pursuit of absolute scientific correctness <br/>Has often catalyzed the dogmatization of science <br/><br/>Toast to scrutiny of all authority <br/><br/><font color=\"grey\">Interests & Hobbies</font>"
 dynamic-typing: True
 loop: True
 loop-count: False # Set False for infinite loop, or set any number for finite loop.
