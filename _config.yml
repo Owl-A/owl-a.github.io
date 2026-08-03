@@ -38,7 +38,7 @@ xing_link:
 facebook_link: https://www.facebook.com/chinmay.awale
 
 # Footer
-footer_left: "<font size=\"1pt\">Theme made with <i class=\"fa fa-heart\"></i> by <a href=\"https://twitter.com/_JacobTomlinson\">Jacob Tomlinson</a>, stolen cheekily by <font color=\"green\"><i>yours truly</i></font>. Posts are licensed under <b>CC BY 4.0</b> by the author.</font>"
+footer_left: "<font size=\"2pt\">Theme made with <i class=\"fa fa-heart\"></i> by <a href=\"https://twitter.com/_JacobTomlinson\">Jacob Tomlinson</a>, stolen cheekily by <font color=\"green\"><i>yours truly</i></font>. Posts are licensed under <b>CC BY 4.0</b> by the author.</font>"
 # footer_right: "<font size=\"2pt\">&lt;/&gt; theme on <a href=\"https://github.com/jacobtomlinson/carte-noire\">Github</a> &nbsp;<i class=\"fa fa-github-alt\"></i></font>"
 
 # Build settings
