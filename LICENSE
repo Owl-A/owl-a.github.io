@@ -1,14 +1,13 @@
 Copyright (C) 2014  Jacob Tomlinson
 
 The contents of this website, which consists of the files in
- * _config.yml
- * _data
- * _drafts
- * _posts
+ * `_config.yml`
+ * `_data`
+ * `_drafts`
 
-are copyrighted and sole property of its author Jacob Tomlinson. It may not be
-used, modified, syndicated or distributed without expressed permission from
-the author.
+are copyrighted and sole property of its author Jacob Tomlinson, save for 
+changes made by the author of this repository. It may not be used, modified, 
+syndicated or distributed without expressed permission from the author.
 
 However the website theme built using jekyll is Open Source under the following
 GPLv3 license.
@@ -26,3 +25,7 @@ GNU General Public License for more details.
 
 You should have received a copy of the GNU General Public License
 along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+The `_posts` folder is property of Chinmay Awale <chinubeta0710@gmail.com> 
+and is subject to the Creative Commons (CC BY) licensing terms 
+<https://creativecommons.org/licenses/by/4.0/>. 
