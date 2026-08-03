@@ -42,7 +42,7 @@ html {
 	height: 100%;
 	overflow-x: hidden;	  
 	@media (min-width: $screen-sm-min)  {
-			.dummy {
+		.dummy {
 			width: 130%;
 			margin-left: -15%;
 		}
@@ -142,6 +142,11 @@ ul {
 	margin-top: 20px;
 	box-shadow: 0px 0px 0px 0px, 0px 6px 12px rgba(0, 0, 0, 0.2);
 	border-bottom: 5px solid $light-blue;
+	
+	@media (min-width: $screen-sm-min) {
+			width: 130%;
+			margin-left: -15%;
+	}
 }
 
 #my-menu {
